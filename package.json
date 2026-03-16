@@ -1,0 +1,50 @@
+{
+  "name": "coding-plan-usage",
+  "displayName": "Coding Plan Usage (Minimax)",
+  "description": "Show Minimax Coding Plan usage",
+  "version": "0.0.3",
+  "main": "./out/extension.js",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.75.0",
+    "cursor": "^1.0.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "publisher": "flute",
+  "contributes": {
+    "commands": [
+      {
+        "command": "coding-plan-usage.refresh",
+        "title": "Refresh Usage / 刷新额度"
+      }
+    ],
+    "configuration": {
+      "title": "Coding Plan Usage (Minimax)",
+      "properties": {
+        "codingPlanUsage.apiKey": {
+          "type": "string",
+          "description": "Minimax API Key for Coding Plan"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.75.0",
+    "pngjs": "^7.0.0",
+    "typescript": "^5.0.0"
+  }
+}

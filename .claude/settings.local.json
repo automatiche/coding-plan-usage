@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ide__getDiagnostics",
+      "Bash(npm run:*)",
+      "WebFetch(domain:minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com)",
+      "WebSearch",
+      "WebFetch(domain:platform.minimaxi.com)",
+      "Bash(curl -s -X GET \"https://www.minimaxi.com/v1/api/openplatform/coding_plan/remains\" \\\\\n  -H \"Authorization: Bearer sk-cp-47CjI_ngglYtDC90NoZ2xs7eWt7sDuLNCUNLrvWU8Y8Y4WtB1ryl4cJ7H8aldnJBiidy6lcuudBtj64gtyjX3zoTGKbkLIltK_2npLGXfGAlQS0qJvPPHyQ\" \\\\\n  -H \"Content-Type: application/json\")",
+      "Bash(npx vsce:*)"
+    ]
+  }
+}
