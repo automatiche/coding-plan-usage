@@ -144,12 +144,8 @@ function activate(context) {
                     const mins = Math.floor(seconds / 60);
                     return `${mins} ${i18n.resetIn}`;
                 };
-                const keySourceNote = apiKeyInfo.source === 'codingPlan'
-                    ? i18n.deprecatedNote
-                    : '';
                 statusBarItem.tooltip =
-                    `${timeRange}\n${formatRemainingMins(cycleRemainingSeconds)}` +
-                        keySourceNote;
+                    `${timeRange}\n${formatRemainingMins(cycleRemainingSeconds)}`;
             }
             else {
                 statusBarItem.text = `$(error) ${i18n.queryFailed}`;

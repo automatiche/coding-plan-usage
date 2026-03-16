@@ -6,6 +6,5 @@ tsconfig.json
 *.js.map
 
 # 开发辅助文件 - 排除
-node_modules/
 generate-icon.js
 icon.svg
