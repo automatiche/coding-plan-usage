@@ -2,6 +2,7 @@
   "name": "coding-plan-usage",
   "displayName": "Coding Plan Usage (Minimax)",
   "description": "Show Minimax Coding Plan usage",
+  "repository": "https://github.com/automatiche/coding-plan-usage",
   "version": "0.0.3",
   "main": "./out/extension.js",
   "icon": "icon.png",
@@ -46,5 +47,6 @@
     "@types/vscode": "^1.75.0",
     "pngjs": "^7.0.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "license": "MIT"
 }
