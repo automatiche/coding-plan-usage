@@ -2,7 +2,7 @@
 
 在 VS Code / Cursor 状态栏显示 Minimax Coding Plan 额度使用情况 | Show Minimax Coding Plan usage in status bar
 
-![效果图](./demo.png)
+![效果图](https://raw.githubusercontent.com/automatiche/coding-plan-usage/main/demo.png)
 
 ## 功能 Features
 
