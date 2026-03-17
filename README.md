@@ -12,7 +12,7 @@
 
 ## 安装 Installation
 
-### 从 VS Code 扩展市场安装（推荐）
+### 从 VS Code 扩展市场安装
 
 1. 打开 VS Code / Cursor
 2. 进入扩展市场，搜索 `Coding Plan Usage (Minimax)`

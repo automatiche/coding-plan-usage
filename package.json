@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/automatiche/coding-plan-usage.git"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./out/extension.js",
   "icon": "icon.png",
   "engines": {
@@ -15,6 +15,14 @@
   },
   "activationEvents": [
     "onStartupFinished"
+  ],
+  "keywords": [
+    "minimax",
+    "coding plan",
+    "quota",
+    "usage",
+    "credits",
+    "cursor"
   ],
   "categories": [
     "Other"
