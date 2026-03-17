@@ -4,6 +4,7 @@ tsconfig.json
 .vscode/
 .git/
 *.js.map
+*.vsix
 
 # 开发辅助文件 - 排除
 node_modules/

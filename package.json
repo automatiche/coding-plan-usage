@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/automatiche/coding-plan-usage.git"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./out/extension.js",
   "icon": "icon.png",
   "engines": {
